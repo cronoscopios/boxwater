@@ -18,7 +18,7 @@
 <div class="main-content" id="home">
     <!-- header -->
     <header class="header">
-        <div class="container">
+        <div class="container-fluid">
             <!-- nav -->
             <nav class="py-2">
                 <div id="logo">

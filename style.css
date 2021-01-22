@@ -414,7 +414,7 @@ li > a:only-child:after {
 /*-- // header --*/
 
 .banner-w3pvt-info {
-    background: url(http://boxwater.local/wp-content/themes/boxwater/images/bg-2.jpg) no-repeat center; /**** CAMBIAR RUTA EN FUNCIÓN DE QUE CAMBIE LA IMAGEN ****/
+    background: url('http://box-water.local/wp-content/themes/boxwater/images/bg-2.jpg') no-repeat center; /**** CAMBIAR RUTA EN FUNCIÓN DE QUE CAMBIE LA IMAGEN ****/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -796,7 +796,7 @@ a.t-icon span {
 /*--//team--*/
 /*--/test-grid--*/
 .test-grid {
-    background: url(http://boxwater.local/wp-content/themes/boxwater/images/test1.jpg) no-repeat center;
+    background: url('http://box-water.local/wp-content/themes/boxwater/images/test1.jpg') no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

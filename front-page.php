@@ -19,7 +19,7 @@
         <div class="row mt-lg-5 mt-4">
             <div class="col-md-4 team-gd text-center">
                 <div class="team-img mb-4">
-                    <img src="http://boxwater.local/wp-content/themes/boxwater/images/team1.jpg" class="img-fluid" alt="user-image">
+                    <img src="http://box-water.local/wp-content/themes/boxwater/images/team1.jpg" class="img-fluid" alt="user-image">
                 </div>
                 <div class="team-info">
                     <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">eCommerce</span> Adrián</h3>
@@ -29,7 +29,7 @@
 
             <div class="col-md-4 team-gd second text-center">
                 <div class="team-img mb-4">
-                    <img src="http://boxwater.local/wp-content/themes/boxwater/images/team2.jpg" class="img-fluid" alt="user-image">
+                    <img src="http://box-water.local/wp-content/themes/boxwater/images/team2.jpg" class="img-fluid" alt="user-image">
                 </div>
                 <div class="team-info">
                     <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Community Manager</span>  Yamila</h3>
@@ -38,7 +38,7 @@
             </div>
             <div class="col-md-4 team-gd text-center">
                 <div class="team-img mb-4">
-                    <img src="http://boxwater.local/wp-content/themes/boxwater/images/team3.jpg" class="img-fluid" alt="user-image">
+                    <img src="http://box-water.local/wp-content/themes/boxwater/images/team3.jpg" class="img-fluid" alt="user-image">
                 </div>
                 <div class="team-info">
                     <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Audiovisual</span>  Josi</h3>

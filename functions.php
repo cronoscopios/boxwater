@@ -4,8 +4,8 @@
 require_once("socialNetwork.php");
 
 
-//add CSS & Js files
-function add_css_js() {
+//add CSS files
+function add_css() {
 
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css' );
     wp_enqueue_style( 'animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' );
@@ -17,9 +17,18 @@ function add_css_js() {
     wp_enqueue_style( 'google-fonts-Source', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i' );
     wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.css' );
     
-    wp_enqueue_script( 'main', get_template_directory_uri() .'/js/main.js', array(), '1.0.0', true);
+    
 }
-add_action( 'wp_enqueue_scripts', 'add_css_js' );
+add_action( 'wp_enqueue_scripts', 'add_css' );
+
+
+//add Js files
+function add_js() {
+	if (!is_admin()) {
+		wp_enqueue_script( 'main', get_template_directory_uri() .'/js/main.js', array(), '1.0.0', true);
+	}
+}
+add_action('init', 'add_js');
 
 
 //add theme support

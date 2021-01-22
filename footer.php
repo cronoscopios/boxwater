@@ -1,5 +1,5 @@
 <div class="copy-right">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <p class="copy-right-grids text-md-left text-center my-sm-4 my-4 col-md-6">© <?php echo date("Y"); ?> box water. all rights reserved.
             </p>
